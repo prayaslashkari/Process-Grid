@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+.container {
+    /* background-color: pink; */
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: springgreen solid 1px;
+    width: 75%;
+    margin: 0 auto;
+
+    height: 12vh;
+}
+
+.navbar > div{
+    border: springgreen solid 1px;
+}
+
+.logo img{
+    border: #111 solid 1px;
+    width: 60px;
+
+}
+
+
+/* SECTION 1 */
+.section1{
+    height: 75vh;
+    background-color: green;
+    
+    background-image:  
+    linear-gradient(to bottom, rgba(9, 44, 243, 0.8), rgba(12, 140, 224, 0.8)),
+    url(https://picsum.photos/600/300);
+
+    background-size: cover;
+    color: white;
+    
+}
+.section1 > div{
+    border: red solid 1px;
+}
+
+.sec-images >div{
+    border: rosybrown solid 1px;
+    padding: 30px 10px;
+}
+
+.main-header{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+
+    font-size: 3.2rem;
+    font-weight: normal;
+}
+.sub-header{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.sec-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.to, .to2{
+    display: block;   
+}
+.to2{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.text-overlay, .text-overlay2{
+    border: blue solid 1px;
+
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+
+.image1{
+    background-image: url(https://picsum.photos/600/300);
+    background-size: cover;
+    width: 700px;
+    height: 250px;
+    margin-right: 20px;
+    max-width: 100%;
+
+}
+
+.image2{
+    background-image: url(https://picsum.photos/600/300);
+    background-size: cover;
+    width: 700px;
+    height: 250px;
+    margin-right: 20px;
+    max-width: 100%;
+
+}
+
+.text-overlay
+{
+    z-index: 2;
+}
+
+
+/* LOWER Head */
+
+.lowerhead{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+
+    margin-top: 50px;
+
+
+}
+
+.lowerhead>div{
+    border: red solid 1px;
+}
+.imgc1 img, .imgc2 img, .img3 img{
+    border-radius: 50%;
+}
+
+.cast1{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.textc1{
+    margin-left: 20px;
+}
+
+.namec1, .desc1{
+    display: block;
+}
+
+
+.desc1 {
+    font-weight: lighter;
+    font-size: 18px;
+
+}
+
+.namec1
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* NAVIGATION BAR */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: White;
+ 
+    text-transform: uppercase;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: Black;
+    text-align: center;
+    padding: 30px 48px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.2);
+    transform:  rotate(10deg);
+    transition: 0.3s ease-in-out;
+    
+
+  }
